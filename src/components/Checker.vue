@@ -28,7 +28,7 @@
 
       <div class="w-100"></div>
       <div class="col-12">
-          <router-link to="/check">Shorten URL</router-link>
+          <router-link to="/">Shorten URL</router-link>
       </div>
     </div>
   </main>
