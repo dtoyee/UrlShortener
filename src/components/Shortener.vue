@@ -64,7 +64,7 @@ export default {
         });
         this.messages.push({ type: "Success", message: "URL Shortened: smarturl.site/" + shortenedUrl });
       } else {
-        this.messages.push({ type: "Error", message: "Invalud URL." });
+        this.messages.push({ type: "Error", message: "Invalid URL." });
       }
     },
     validURL(str) {

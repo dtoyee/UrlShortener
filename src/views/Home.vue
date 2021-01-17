@@ -1,16 +1,13 @@
 <template>
-    <Menu />
     <Shortener />
     <router-view />
 </template>
 
 <script>
     import Shortener from '../components/Shortener.vue'
-    import Menu from '../components/Menu.vue'
     export default {
         components: {
-            Shortener,
-            Menu
+            Shortener
         }
     }
 </script>
